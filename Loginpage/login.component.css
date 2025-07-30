@@ -1,0 +1,27 @@
+.bg-light-blue {
+  background: linear-gradient(to right, #e3f2fd, #f0f9ff);
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card-header h3,
+.card-header p {
+  color: #ffffff;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #228be6;
+  border-color: #228be6;
+}
+
+.btn-primary:hover {
+  background-color: #1c7ed6;
+  border-color: #1c7ed6;
+}
+
