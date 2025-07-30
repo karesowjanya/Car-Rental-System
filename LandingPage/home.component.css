@@ -1,0 +1,100 @@
+.background-wrapper {
+  position: relative;
+  min-height: 100vh;
+  overflow: visible;
+  padding-top: 10px;     /* Minimal space above */
+  padding-bottom: 10px;  /* Minimal space below */
+}
+.feedback-section {
+  background-color: #e6f2ff; /* soft light blue background */
+  border-radius: 20px;
+}
+
+.feedback-card {
+  flex: 0 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.feedback-card:hover {
+  transform: scale(1.03);
+}
+
+.avatar {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* gradient blue avatar */
+}
+
+.card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.background-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('/baleno.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index: 1;
+}
+ 
+.content {
+  position: relative;
+  z-index: 2;
+  padding: 40px 20px; /* Reduced vertical padding */
+}
+ 
+.why-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ 
+.container.my-5 {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+ 
+ 
+ 
+ 
+ 
+.login-btn {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+  transition: all 0.3s ease;
+}
+ 
+.login-btn:hover {
+  background: linear-gradient(to right, #0056b3, #0096c7);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+}
+.why-section:hover {
+  transition: background-color 0.3s ease;
+}
+ 
+.selectable-card {
+  transition: transform 0.3s ease;
+}
+ 
+.selectable-card:hover {
+  transform: scale(1.05);
+}
+ 
+.about-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+ 
+.about-link:hover {
+  text-decoration: underline;
+}
