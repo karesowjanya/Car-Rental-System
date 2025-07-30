@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+</head>
+<body>
+ 
+  <div class="contact-container">
+    <h1 class="main-title">📬 Get in Touch</h1>
+    <p class="subtitle">We’re here to help you with your car rental needs. Reach out to us anytime!</p>
+ 
+    <div class="contact-info-grid">
+      <div class="info-box">
+        <h3>📍 Address</h3>
+        <p>123 AutoDrive Lane, Hyderabad, Telangana 500081</p>
+      </div>
+      <div class="info-box">
+        <h3>📞 Phone</h3>
+        <p>+91 98765 43210</p>
+      </div>
+      <div class="info-box">
+        <h3>📧 Email</h3>
+        <p>supporteasyrent.com</p>
+      </div>
+      <div class="info-box">
+        <h3>🕒 Working Hours</h3>
+        <p>Mon - Sun: 8:00 AM to 10:00 PM</p>
+      </div>
+    </div>
+ 
+ 
+    <div class="feedback-section">
+      <h2>📝 Share Your Experience</h2>
+      <p>We value your feedback! Let us know how your rental experience was.</p>
+      <input type="text" [(ngModel)]="userName" placeholder="Your Name" />
+<br /><br />
+<textarea [(ngModel)]="feedbackMessage" rows="4" placeholder="Write your feedback here..."></textarea>
+<br /><br />
+<button (click)="submitFeedback()">Submit Feedback</button>
+ 
+    </div>
+  </div>
+ 
+   
+</body>
+</html>
